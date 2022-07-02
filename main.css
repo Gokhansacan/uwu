@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+#share a {
+  color: gray;
+  text-decoration: none;
+  margin-right: 12px;
+  opacity: 0.9;
+}
+
+#share a:hover {
+  opacity: 0.6;
+}
+#share.box {
+  top: 40px;
+  right: 10px;
+  position: absolute;
+  float: right;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  text-align: center;
+}
+li a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 5px;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+li hover {
+  opacity: 0, 5;
+  transition: 0, 3;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: rotate(3600deg);
+  transition: all 2s;
+}
+
+div.gallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+  padding: 5px;
+}
+
+div.desc {
+  background-color: CED89E;
+  text-align: center;
+}
+div.gallery {
+  margin: 5px;
+  border: 4px solid #ffdcae;
+  float: left;
+  width: 300px;
+  height: 700px;
+  text-align: center;
+  background-color: #ced89e;
+}
+.container {
+  padding-left: 40px;
+  display: flex;
+  float: left;
+  width: auto;
+}
+.main {
+  width: auto;
+  justify-content: center;
+}
+anan {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
+header {
+  border-bottom: 2px solid black;
+
+  padding: 20px;
+  background-color: #76ba99;
+}
+body {
+  background-color: #adcf9f;
+}
+
+.sidenav {
+  border-top: 2px solid black;
+
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #76ba99;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196f3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
